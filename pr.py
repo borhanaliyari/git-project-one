@@ -16,13 +16,13 @@ class Rand(Tk):
         but.pack()
         self.label1 = Label(text = "",background="pink",font=("Arial",30))
         self.label1.pack()
-        label2 = Label(text = "do you love it",background="red",font=("Arial",50))
+        label2 = Label(text = "do you love it",background="red",font=("Arial",50),foreground="yellow")
         label2.pack()
 
 
     def button(self):
         num = "09"
-        rand_num = random.randint(0,20)
+        rand_num = random.randint(0,30)
         for i in num:
             num += str(rand_num)
         self.label1.config(text=num)
