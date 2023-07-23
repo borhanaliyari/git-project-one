@@ -17,7 +17,7 @@ class Rand(Tk):
 
 
     def button(self):
-        self.label.config(text="you can play a lot" )
+        self.label.config(text="Thanks for choosing us" )
         
 
 
