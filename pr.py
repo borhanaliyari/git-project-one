@@ -21,7 +21,15 @@ class Rand(Tk):
 
 
     def button(self):
+
         self.label1.config(text="salamchalem",padx=25,pady=15)
+        num = "09"
+        rand_num = random.randint(0,20)
+        for i in num:
+            num += str(rand_num)
+        self.label1.config(text=num,border=15)
+
+
             
         
 
