@@ -23,7 +23,8 @@ class Rand(Tk):
         rand_num = random.randint(0,20)
         for i in num:
             num += str(rand_num)
-        self.label1.config(text=num)
+        self.label1.config(text=num,border=15)
+
             
         
 
