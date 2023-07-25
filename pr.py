@@ -18,6 +18,8 @@ class Rand(Tk):
         self.label1.pack()
         label2 = Label(text = "do you love it",background="red",font=("Arial",50),foreground="yellow")
         label2.pack()
+        label3 = Label(text="you should do that",font=("Arial",25))
+        label3.pack()
 
 
     def button(self):
